@@ -29,6 +29,26 @@ En esta tabla se omite únicamente el prefijo común `WhatsApp Image 2026-09-05 
 
 Ejemplos de posiciones 3D, características de objetos, compras y preguntas de comprobación. Son explicaciones complementarias; no se presentan como contenido textual del profesor ni como ejercicios entregados por el estudiante.
 
-El determinante se explica solamente como `ad − bc` para la inversa `2 × 2`. No se agregaron capítulos sobre Gauss-Jordan, espacios vectoriales abstractos, bases, rango ni autovalores: las fotografías no aportan desarrollo suficiente de esos temas. Una mención a un tema futuro no se toma como prueba de que ya se estudió.
+El determinante se explica solamente como `ad − bc` para la inversa `2 × 2`. La versión inicial no desarrollaba Gauss ni dependencia lineal porque las fotografías no bastaban para ello. La ampliación incorpora esos temas a partir del nuevo PDF. No se añaden capítulos de bases, autovalores ni una teoría completa de espacios vectoriales abstractos.
 
 La organización también toma como referencia general el repositorio compartido por Felipe: [Aplicacion-Matematicas-IA](https://github.com/emartinex/Aplicacion-Matematicas-IA). No se copiaron archivos ni código de ese proyecto.
+
+
+## Ampliación a partir del PDF
+
+Archivo proporcionado por Felipe: `Apuntes_Completos_Matematicas_IA(1).pdf`, de 15 páginas, con el título «Álgebra lineal y cálculo — Apuntes explicados y guía resuelta».
+
+El PDF es una recopilación que menciona fotografías y una guía UTCV llamada «Ejercicios: Matemáticas para Inteligencia Artificial». Se consultó la recopilación proporcionada, no una copia independiente de la guía original. Los números de ejercicio se conservan como aparecen en ella.
+
+| Páginas del PDF | Contenido incorporado | Destino |
+|---|---|---|
+| 3–6 | Vectores y espacios, combinaciones, núcleo y solución general; ejercicio 1 | Capítulo 09 |
+| 6–7 | Gauss y dependencia; ejercicio 3 | Capítulo 09 |
+| 7 | Operaciones y transpuesta; ejercicio 5 | Capítulo 09 |
+| 7–9 | Norma, producto punto, ángulo y ortogonalidad; ejercicio 7 | Capítulo 09 |
+| 9–11 | Definición de derivada, reglas, puntos críticos; ejercicios 11 y 9a | Capítulo 10 |
+| 11–12 | Producto, cociente y cadena; ejercicios 9b–c y 10 | Capítulo 10 |
+| 12–13 | Parciales y gradiente; ejercicios 12 y 13 | Capítulo 10 |
+| 14–15 | Fórmulas, dificultades y repaso | Síntesis y autoevaluaciones de ambos capítulos |
+
+Se reescribieron las explicaciones en Markdown y se comprobaron los cálculos. Las aclaraciones sobre dominios, vector cero, pivotes por columna y clasificación de extremos evitan extender una fórmula fuera de sus condiciones. Las conexiones con IA y las preguntas de autoevaluación son apoyos didácticos. Las conclusiones personales siguen siendo propuestas para que el estudiante las adapte.
